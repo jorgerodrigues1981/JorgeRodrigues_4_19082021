@@ -7,22 +7,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-    font-size: 2em;
-    color: white;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: white;
-}
-
-p {
-    font-size: 1em;
-    color:  white;
-}
-
-a, button {
+a,
+button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -295,6 +281,10 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+#bloc-1-hero h1 {
+    font-size: 32px;
 }
 
 .navbar {
@@ -785,8 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: white;
-    font-size: 2em;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
