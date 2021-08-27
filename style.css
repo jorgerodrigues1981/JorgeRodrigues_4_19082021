@@ -566,7 +566,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog {
-    width: 90%;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto 0;
 }
@@ -700,6 +700,11 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -744,8 +749,12 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .avatar {
@@ -775,7 +784,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -823,6 +832,22 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.auteur_citation {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 @media (max-width: 1024px) {
@@ -1030,8 +1055,8 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
