@@ -12,7 +12,10 @@
 }
 
 .fa {
-    display: inline-block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
